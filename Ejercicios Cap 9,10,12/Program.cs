@@ -1,4 +1,6 @@
-﻿using Ejercicios_Cap_9_10_12.Cap_9;
+﻿using Ejercicios_Cap_9_10_12.Cap_10;
+using Ejercicios_Cap_9_10_12.Cap_12;
+using Ejercicios_Cap_9_10_12.Cap_9;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,12 +40,15 @@ namespace Ejercicios_Cap_9_10_12
                         Console.Clear();
                         ec9.Ejercicios();
                         break;
-                    case 2: Console.WriteLine("Aun no Realizado");
-                        Console.ReadKey();
+                    case 2:
+                        Ejercicios_cap_10 e10 = new Ejercicios_cap_10();
+                        e10.Ejercicios();
                         break;
-                    case 3: Console.WriteLine("Aun no Realizado");
-                        Console.ReadKey(); break;
-
+                    case 3:
+                        Ejercicios_del_Cao_12 e12 = new Ejercicios_del_Cao_12();
+                        e12.Ejercicios();
+                        break;
+                        //
                 }
             }
         }
